@@ -130,7 +130,7 @@ class Mirror(ABC):
         # alphabetize the rest
         sorted_headers += sorted(unsorted_headers)
 
-        term_c, term_r = os.get_terminal_size(0)
+        term_c, term_r = os.get_terminal_size()
         table = BeautifulTable(
             default_alignment=BeautifulTable.ALIGN_LEFT,
             max_width=term_c - 1

@@ -1,5 +1,5 @@
 from setuptools import setup
-install_deps=['beautifulsoup4', 'BeautifulTable', 'requests']
+install_deps=['beautifulsoup4', 'BeautifulTable', 'requests', 'lxml']
 test_deps = [
     'vcrpy',
     'pytest',
